@@ -102,3 +102,58 @@ img {
     margin: 0 auto;
   }
 }
+
+/* Bonus */
+
+@media screen and (min-width: 576px) and (max-width: 1199px) {
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  #lezioni, #why {
+    background-color: #f2f2c9;
+  }
+
+  .container .row{
+    width: 100%;
+    margin: 0;
+  }
+    
+  .container .row > .left, .central, .right {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  #steps .left, .central{
+    min-width: 50%;
+    margin: 15px 0;
+  }
+
+  #steps .right{
+    min-width: 100%;
+    clear: both;
+  }
+
+  #why .first, .second{
+    max-width: 50%;
+    margin: 15px 0;
+    float: left;
+  }
+
+  #why .third{
+    clear: both;
+  }
+
+  #why hr{
+    display: none;
+  }
+
+}
